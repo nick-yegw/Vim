@@ -44,3 +44,4 @@ set tabstop=4			    " set tab width to 4 chars
 set shiftwidth=4		  " set auto indent to chars
 set expandtab         " use space to replace tab
 
+colorscheme pablo     " set up the color for editor
