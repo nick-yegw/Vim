@@ -45,6 +45,7 @@ set shiftwidth=4		  " set auto indent to chars
 set expandtab         " use space to replace tab
 
 colorscheme pablo     " set up the color for editor
+set history=500
 
 syntax on             " set up the syntax highlight
 
