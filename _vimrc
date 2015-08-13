@@ -47,6 +47,9 @@ set expandtab         " use space to replace tab
 colorscheme pablo     " set up the color for editor
 set history=500
 
+set nobackup
+set noswapfile
+
 syntax on             " set up the syntax highlight
 
 set statusline+=%#warningmsg#
