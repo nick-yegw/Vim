@@ -50,6 +50,9 @@ set history=500
 set nobackup
 set noswapfile
 
+"Setting for Chinese encode : http://www.zhihu.com/question/22363620
+set fileencodings=ucs-bom,utf-8,utf-16,gbk,big5,gb18030,latin1
+
 syntax on             " set up the syntax highlight
 
 set statusline+=%#warningmsg#
