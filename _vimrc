@@ -29,6 +29,7 @@ function! MyDiff()
 endfunction
 
 set number			      " show line numbers
+set relativenumber        " use reletive number
 set showcmd			      " show command line in buttom bar
 set cursorline		    " highlight current line
 set wildmenu		      " visual autocomplete for command menu
@@ -52,6 +53,9 @@ set noswapfile
 
 "Setting for Chinese encode : http://www.zhihu.com/question/22363620
 set fileencodings=ucs-bom,utf-8,utf-16,gbk,big5,gb18030,latin1
+
+noremap <silent> <expr> k (v:count == 0 ? 'gk' : 'k')
+noremap <silent> <expr> j (v:count == 0 ? 'gj' : 'j')
 
 syntax on             " set up the syntax highlight
 
