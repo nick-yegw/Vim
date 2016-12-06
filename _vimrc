@@ -56,6 +56,7 @@ set fileencodings=ucs-bom,utf-8,utf-16,gbk,big5,gb18030,latin1
 
 noremap <silent> <expr> k (v:count == 0 ? 'gk' : 'k')
 noremap <silent> <expr> j (v:count == 0 ? 'gj' : 'j')
+vnoremap // y/<C-R>"<CR>
 
 " Allow saving of files as sudo when I forgot to start vim using sudo.
 cmap w!! w !sudo tee > /dev/null %
